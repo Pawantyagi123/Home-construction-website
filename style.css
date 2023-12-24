@@ -39,7 +39,7 @@
 
 .home-container{
     width: 100%;
-    background:  url("/assets/house.home.jpg");
+    background:  url("./assets/house.home.jpg");
    min-height: 90vh;
    background-position: center;
     background-size: cover;
