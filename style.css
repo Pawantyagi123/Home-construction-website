@@ -145,7 +145,7 @@
 
 #get-touch{
     width: 100%;
-    background-color: #1f386e;
+    background: linear-gradient(40deg,black,rgb(218, 201, 201));
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -213,7 +213,7 @@ z-index: -1;
 }
 #about{
     width: 100%;
-    background-color: rgba(246, 235, 215, 0.662);
+    background: linear-gradient(rgba(255, 0, 0, 0.584) 40%,white);
     padding: 5rem 3rem 3rem 3rem;
     position: relative;
     top: 0;
@@ -321,7 +321,7 @@ z-index: -1;
 
 #services{
     width: 100%;
-    background-color: aliceblue;
+    background: linear-gradient(white,black);
     padding: 5rem 10rem 5rem 10rem;
     display: flex;
     flex-direction: row;
@@ -397,7 +397,7 @@ z-index: -1;
     right: 0;
 z-index: -1;
 text-align: center;
-background: linear-gradient(45deg, red,blue);
+background: linear-gradient(45deg, rgb(237, 80, 80),rgb(36, 222, 222));
 }
 
 #project img{
@@ -497,12 +497,45 @@ input::placeholder{
    height: 50px;
    outline: none;
     border-radius: 5px;
-    background: linear-gradient(40deg,white ,black);
-    color: rgb(10, 10, 10);
+    background: linear-gradient(50deg,white ,rgba(0, 0, 0, 0.488));
+    color: rgb(243, 8, 8);
     font-size: 20px;
     border: none;
 }
 
 .btn-4:hover{
-    background: linear-gradient(40deg,black,white );
+    background: linear-gradient(30deg,black,white );
+}
+
+#contact h2{
+    color: white;
+    font-size: 3rem;
+}
+
+.footer{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f7f9;
+}
+
+.social-media i{
+    font-size: 35px;
+    padding-left: 20px;
+    color: black;
+}
+
+.social-media  .fa-instagram{
+    font-weight: 900;
+    background: linear-gradient(40deg,red,blue);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.social-media  .fa-facebook{
+    font-weight: 900;
+    color: rgba(0, 0, 255, 0.837);
+   
 }
