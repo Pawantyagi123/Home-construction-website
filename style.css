@@ -451,7 +451,7 @@ input{
     border-radius: 5px;
     outline: none;
     font-size: 16px;
-    color: white;
+    color: rgb(246, 244, 244);
     background-color: transparent;
     width: 40vw;
     height: 40px;
@@ -466,6 +466,7 @@ input::placeholder{
 
 .message::placeholder{
     padding-left: 10px;
+    background-color: transparent;
 }
 .message{
     background-color: transparent;
@@ -513,28 +514,37 @@ input::placeholder{
 }
 
 .footer{
-    padding: 2rem;
+    padding: 1rem 2rem 1rem 2rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background-color: #f6f7f9;
+    
 }
 
+.social-media{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 2rem;
+
+}
 .social-media i{
     font-size: 35px;
     padding-left: 20px;
     color: black;
 }
 
-.social-media  .fa-instagram{
+.social-media  .fa-instagram:hover{
     font-weight: 900;
     background: linear-gradient(40deg,red,blue);
     color: transparent;
     -webkit-background-clip: text;
 }
 
-.social-media  .fa-facebook{
+.social-media  .fa-facebook:hover{
     font-weight: 900;
     color: rgba(0, 0, 255, 0.837);
    
